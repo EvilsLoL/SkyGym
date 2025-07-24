@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sky Gym</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1571019613914-85f342c1d4b1');
+      background-size: cover;
+      background-position: center;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 1.5rem;
+    }
+
+    /* Membership Plans */
+    .plans {
+      text-align: center;
+      padding: 50px 20px;
+      background: white;
+    }
+    .plans h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .plan-cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #e3e3e3;
+      border-radius: 8px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin: 0 0 10px 0;
+    }
+    .card p {
+      margin: 5px 0;
+    }
+    .price {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #0077ff;
+    }
+
+    /* Mission Section */
+    .mission {
+      padding: 40px 20px;
+      background: #0077ff;
+      color: white;
+      text-align: center;
+    }
+    .mission h2 {
+      font-size: 2rem;
+    }
+
+    /* Contact Section */
+    .contact {
+      padding: 40px 20px;
+      background: #222;
+      color: white;
+      text-align: center;
+    }
+    .contact h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+    .contact p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Sky Gym</h1>
+    <p>Reach New Heights in Fitness</p>
+  </div>
+
+  <!-- Membership Plans -->
+  <section class="plans">
+    <h2>Our Membership Plans</h2>
+    <div class="plan-cards">
+      <div class="card">
+        <h3>Basic Plan</h3>
+        <p>Access to gym floor</p>
+        <p>Free water station</p>
+        <p class="price">$20/month</p>
+      </div>
+      <div class="card">
+        <h3>Pro Plan</h3>
+        <p>All Basic benefits</p>
+        <p>Group fitness classes</p>
+        <p class="price">$35/month</p>
+      </div>
+      <div class="card">
+        <h3>Premium Plan</h3>
+        <p>All Pro benefits</p>
+        <p>Personal trainer sessions</p>
+        <p class="price">$50/month</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section class="mission">
+    <h2>Our Goal</h2>
+    <p>At Sky Gym, we aim to empower people to achieve their fitness dreams with world-class facilities and expert guidance.</p>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Address: Minecraft 2222</p>
+    <p>Phone: 56569988</p>
+    <p>Email: info@skygym.com</p>
+  </section>
+
+</body>
+</html>
